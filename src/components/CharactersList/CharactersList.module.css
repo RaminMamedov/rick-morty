@@ -1,0 +1,14 @@
+.foundCharacters {
+    font-family: 'Montserrat', sans-serif;
+    color: #282626;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.characterList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}

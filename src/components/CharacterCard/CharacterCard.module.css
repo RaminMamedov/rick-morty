@@ -1,0 +1,71 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    background: white;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 7px 25px 0 #64646F33;
+}
+
+.characterImage {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.characterName {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #282626;
+}
+
+.characterFooter {
+    display: flex;
+    margin-top: auto;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.characterStatus {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.statusAlive {
+    color: #267504;
+}
+
+.statusDead {
+    color: #820A0A;
+}
+
+.statusUnknown {
+    color: #767676;
+}
+
+.characterStatusText {
+    color: #767676;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.characterCreated {
+    color: #767676;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
