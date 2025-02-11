@@ -13,6 +13,7 @@ function App() {
     <ErrorBoundary FallbackComponent={ErrorFallback}>
       <Suspense fallback={<Loader />}>
         <Routes>
+          <Route path="/rick-morty/" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/character/:id" element={<CardPage />} />
           <Route path="*" element={<NotFound />} />
